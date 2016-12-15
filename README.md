@@ -1,2 +1,4 @@
 # IntroRxJava
-Brief introduction to RxJava
+
+Imaginemos lo siguiente: estamos en el mundo del streaming (servicios menos pesados y más rápidos), los datos se actualizan en tiempo real. No queremos esperar que Twitter, Facebook o Google Inbox nos recarguen toda la página para actualizar la información. Cuando un nuevo tweet sea publicado queremos que la interfaz actualice ese tweet y aparezca como primera entrada, si hay un nuevo post en Facebook o una notificación queremos que se actualice esa parte relevante en la UI; si estamos en Google Inbox queremos que los correos nuevos aparezcan y no que toda la página se actualice. No tenemos que volver a consumir un servicio muy pesado y lento que nos devuelva 100 resultados, queremos consumir un solo resultado y actualizar la interfaz gráfica de una manera amigable al usuario. La programación reactiva nos da una herramienta para implementar este tipo de soluciones. Y en esta ocasión comenzaremos con una introducción a RxJava. Vamos a ver cómo.
+
